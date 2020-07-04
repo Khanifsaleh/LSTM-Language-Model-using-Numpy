@@ -2,7 +2,7 @@
 LSTM Architecture for Language Model case using Numpy only
 
 ## preparation
-make directory ./binaries
+make directory ./binaries <br/>
 make directory ./data and put training data into it
 
 ## How to train?
