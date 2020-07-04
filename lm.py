@@ -32,7 +32,7 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('-sent', type=str)
-    parser.add_argument('-topk', type=int)
+    parser.add_argument('-topk', default=1, type=int)
     parser.add_argument('-len_sent', type=int)
     args = vars(parser.parse_args())
 
