@@ -1,5 +1,4 @@
 import numpy as np
-import math as m
 
 
 def sigmoid(vector, grad=False):
@@ -248,7 +247,7 @@ class LSTM:
 class Linear:
     def __init__(self, input_sz, output_sz, activation):
         self.activation = activation
-        k = m.sqrt(1 / input_sz)
+        # k = m.sqrt(1 / input_sz)
         # self.w = np.random.uniform(low=-k, high=k,
         #     size=(input_sz, output_sz))
         # self.b = np.random.uniform(low=-k, high=k,
